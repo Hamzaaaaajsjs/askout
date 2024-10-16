@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apology Message</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background-image: url('https://example.com/your-dog-image.jpg'); /* Replace with a dog image URL */
+            background-size: cover;
+            background-position: center;
+            filter: blur(5px);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .content {
+            position: absolute;
+            text-align: center;
+            color: white;
+            font-size: 48px;
+            animation: fadeIn 2s;
+        }
+
+        .heart {
+            color: red;
+            font-size: 60px;
+            animation: heartbeat 1s infinite;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes heartbeat {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        I'm sorry, Mahnam 
+        <span class="heart">❤️❤️</span>
+    </div>
+</body>
+</html>
